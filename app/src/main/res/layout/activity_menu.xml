@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.krishna.citygo.Menu">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:padding="20dp"
+        android:id="@+id/caruser"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/car"/>
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:padding="20dp"
+        android:id="@+id/user"
+        android:src="@drawable/users"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:padding="20dp"
+            android:src="@drawable/member"
+            android:id="@+id/card"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"/>
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/contactus"
+            android:src="@drawable/contact"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:id="@+id/traffic"
+            android:padding="25dp"
+            android:paddingBottom="20dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/traffic1"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:padding="20dp"
+            android:layout_weight="1"
+            android:id="@+id/sos"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/sos2"/>
+    </LinearLayout>
+
+
+</LinearLayout>

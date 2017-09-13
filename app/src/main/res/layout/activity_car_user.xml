@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_car_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.krishna.citygo.CarUser">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Post a request !!"
+        android:textColor="#aebf4e"
+        android:layout_marginLeft="16dp"
+        android:textSize="15sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:hint="Start Point"
+            android:textSize="30sp"
+            android:background="#ffffff"
+            android:textColor="@color/colorPrimary"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:hint="End point"
+            android:layout_marginLeft="20dp"
+            android:textSize="30sp"
+            android:background="#ffffff"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#ffffff"
+        android:hint="comments"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:id="@+id/editText2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:text="Post"
+            android:id="@+id/post"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Already have token ?"
+        android:textColor="#aebf4e"
+        android:layout_marginLeft="16dp"
+        android:textSize="15sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Click to enter"
+        android:id="@+id/enter"/>
+
+</LinearLayout>

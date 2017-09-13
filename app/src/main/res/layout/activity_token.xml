@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_token"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.krishna.citygo.Token">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Token 1"
+        android:textColor="#aebf4e"
+        android:layout_marginLeft="16dp"
+        android:textSize="15sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#ffffff"
+        android:hint="#5678987"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:id="@+id/editText2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Token 2"
+        android:textColor="#aebf4e"
+        android:layout_marginLeft="16dp"
+        android:textSize="15sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#ffffff"
+        android:hint="#7890007"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:id="@+id/editText3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Token 3"
+        android:textColor="#aebf4e"
+        android:layout_marginLeft="16dp"
+        android:textSize="15sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#ffffff"
+        android:hint="#7888969"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:id="@+id/editText4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Token 4"
+        android:textColor="#aebf4e"
+        android:layout_marginLeft="16dp"
+        android:textSize="15sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#ffffff"
+        android:hint="#678990"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:id="@+id/editText5"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Start journy "
+        android:id="@+id/post"/>
+
+</LinearLayout>
